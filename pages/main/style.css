@@ -271,6 +271,7 @@ p {
 .left:hover,
 .right:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .pets__title {
@@ -298,6 +299,15 @@ p {
     height: 435px;
     text-align: center;
 }
+
+
+.Katrine:hover,
+.Woody:hover,
+.Jennifer:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 
 .pets__name {
     font-size: 20px;
@@ -345,7 +355,7 @@ p {
 }
 
 .pets__button:hover {
-    background: #FDDCC4;
+    background: #FDDCC4; 
     cursor: pointer;
 }
 
