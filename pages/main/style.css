@@ -271,7 +271,8 @@ p {
 .left:hover,
 .right:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    background: #FDDCC4;
+    border-radius: 99px;
 }
 
 .pets__title {
@@ -304,8 +305,9 @@ p {
 .Katrine:hover,
 .Woody:hover,
 .Jennifer:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
+    background-color: #FFFFFF
 }
 
 
