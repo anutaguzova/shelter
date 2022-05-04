@@ -408,7 +408,7 @@ p {
 .donation {
     display: flex;
     background: #F6F6F6;
-    height: 463px;
+    height: 461px;
     flex-wrap: wrap;
 }
 
@@ -427,18 +427,18 @@ p {
     width: 100%;
     max-width: 505px;
     max-height: 261px;
-    margin: 90px auto 100px 30px;
+    margin: 90px auto 100px 46px;
 }
 
 .donation__content {
     max-width: 380px;
     max-height: 282px;
-    margin: 77px 40px 101px 30px;
+    margin: 80px 40px 101px 29px;
 }
 
 .donation__content-title {
     color: #545454;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
     max-width: 300px;
     max-height: 90px;
 }
