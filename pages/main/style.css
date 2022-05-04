@@ -173,6 +173,8 @@ p {
     margin-bottom: 60px;
     color: #CDCDCD;
     max-width: 460px;
+    font-size: 15px;
+    line-height: 160%;
 }
 
 .hero-button {
@@ -380,7 +382,8 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 45px;
-    margin-left: 15px;
+    margin-left: 40px;
+    margin-right: -86px;
 }
 
 .help__icon {
@@ -391,7 +394,7 @@ p {
 }
 
 .help__icon img {
-    padding-bottom: 30px;
+    padding-bottom: 28px;
 }
 
 .help__icon p {
@@ -443,6 +446,16 @@ p {
     max-height: 90px;
 }
 
+.donation__content-subtitle {
+    color: #545454;
+    max-width: 330px;
+    letter-spacing: 0.06em;
+    font-size: 15px;
+    line-height: 110%;
+ 
+}
+
+
 .search {
     width: 349px; 
     border: none; 
@@ -477,7 +490,6 @@ p {
     height: 23px; 
     border: none; 
     background: url(../../assets/icons/credit-card.svg) no-repeat 50% 50%; /* Параметры фона */
-    /* margin: 10px 17px;  */
    
    }
 
