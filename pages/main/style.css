@@ -302,13 +302,20 @@ p {
 }
 
 
+.Katrine:hover .pets__button,
+.Woody:hover .pets__button,
+.Jennifer:hover .pets__button{
+    background: #FDDCC4;
+    cursor: pointer;
+}
+
 .Katrine:hover,
 .Woody:hover,
 .Jennifer:hover {
-    transform: scale(1.1);
     cursor: pointer;
     background-color: #FFFFFF
 }
+
 
 
 .pets__name {
