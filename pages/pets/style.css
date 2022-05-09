@@ -92,6 +92,7 @@ p {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .logo__subtitle {
@@ -103,7 +104,10 @@ p {
     margin-top: 8px;
     /* padding-left: 5px; */
     letter-spacing: 0.1em;
+    text-decoration: none;
 }
+
+
 
 .menu {
     display: flex;
@@ -355,6 +359,5 @@ a {
    }
 
 a:hover {
-    text-decoration: underline;
     cursor: pointer;
    }
