@@ -21,12 +21,7 @@ html {
     height: 1px;
   }
 
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 44px;
-    line-height: 130%;
-    color: #FFFFFF;
-}
+
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -87,7 +82,7 @@ p {
 .logo__title {
     color: #545454;
     font-size: 32px;
-    letter-spacing: 10%;
+    letter-spacing: 0.06em;
     line-height: 110%;
     font-family: 'Georgia';
     font-style: normal;
@@ -102,7 +97,7 @@ p {
     letter-spacing: 10%;
     line-height: 15px;
     margin-top: 8px;
-    /* padding-left: 5px; */
+    padding-left: 5px;
     letter-spacing: 0.1em;
     text-decoration: none;
 }
@@ -159,18 +154,20 @@ p {
     color: #545454;
     text-align: center;
     max-width: 400px;
+    
     margin: 80px auto 59px;
-    /* padding-left: 51px; */
+    /* padding-left: 55px; */
   
 }
 
 .pets__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 37px;
+    grid-column-gap: 40px;
     grid-row-gap: 31px;
     /* height: 930px; */
     /* margin-top: 59px; */
+    
 }
 
 .pets__button {
@@ -181,6 +178,7 @@ p {
     font-family: Georgia;
     font-size: 17px;
     line-height: 130%;
+    letter-spacing: 0.06em;
     background: #FAFAFA;
     padding: 13px 15px;
     margin-bottom: 30px;
@@ -252,7 +250,6 @@ p {
 
 .arrows {
 border-radius: 100px;
-padding: 13px 20px;
 font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -260,6 +257,7 @@ font-size: 20px;
 line-height: 115%;
 letter-spacing: 0.06em;
 margin-right: 20px;
+background: #F6F6F6;
 }
 
 .arrows:last-child {
@@ -270,13 +268,30 @@ margin-right: 20px;
 .double-left {
     border: 2px solid #CDCDCD;
     color: #CDCDCD;
-
 }
+
+.arrow-left,
+.arrow-right,
+.number {
+    padding: 13px 20px;
+}
+
+.double-left,
+.double-right {
+    padding: 13px 15px;
+}
+
+
 
 .double-right,
 .arrow-right {
     border: 2px solid #F1CDB3;
     color: #292929;
+}
+
+.double-right:hover,
+.arrow-right:hover {
+    cursor: pointer;
 }
 
 .number {
@@ -290,7 +305,7 @@ margin-right: 20px;
     background: url(../../assets/images/noise_transparent@2x.png),
     radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%),
     #211F20;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .footer-wrapper {
@@ -319,7 +334,7 @@ margin-right: 20px;
 }
 
 .mail {
-    margin: 30px auto 40px 0;
+    margin: 40px auto 35px 0;
 
 }
 
@@ -330,10 +345,10 @@ margin-right: 20px;
     flex-wrap: wrap;
     display: inline;
     max-width: 302px;
-    max-height: 234px;
-    margin-top: 16px;
+    /* max-height: 234px; */
+    margin-top: 19px;
     margin-bottom: 60px;
-    margin-left: 161px;
+    margin-left: 159px;
     margin-right: 191px;
     color: #FFFFFF;
 }
@@ -343,13 +358,13 @@ margin-right: 20px;
 }
 
 .footer__location-USA {
-    margin: 23px auto 20px 0;
+    margin: 37px auto 12px -3px;
 }
 
 .footer__image-wrapper {
     width: 100%;
     max-width: 300px;
-    max-height: 310px;
+    /* max-height: 310px; */
 }
 
 
