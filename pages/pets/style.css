@@ -64,26 +64,34 @@ p {
 }
 
 
-
 .header {
     width: 100vw;
     height: 120px;
     background: #FFFFFF;
 }
 
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+}
+
 .logo {
     display: flex;
     flex-direction: column;
-    max-width: 184px;
-    max-height: 60px;
+    /* max-width: 184px;
+    max-height: 60px; */
 }
 
 .logo__title {
     color: #545454;
-    font-family: Georgia;
     font-size: 32px;
-    letter-spacing: 6%;
+    letter-spacing: 10%;
     line-height: 110%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
 }
 
 .logo__subtitle {
@@ -91,13 +99,16 @@ p {
     font-family: Arial;
     font-size: 13px;
     letter-spacing: 10%;
-    line-height: 115%;
-    margin-top: 10px;
+    line-height: 15px;
+    margin-top: 8px;
+    /* padding-left: 5px; */
+    letter-spacing: 0.1em;
 }
 
 .menu {
     display: flex;
     width: 443px;
+    padding-bottom: 5px;
 }
 
 .list {
@@ -131,23 +142,31 @@ p {
 
 /* pets */
 .pets {
-    height: 1342px;
+    
     background: #F6F6F6;
 }
+
+.pets__wrapper {
+    margin: 0;
+}
+
 
 .pets__title{
     color: #545454;
     text-align: center;
-    margin-top: 80px;
+    max-width: 400px;
+    margin: 80px auto 59px;
+    /* padding-left: 51px; */
+  
 }
 
 .pets__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 30px;
-    height: 930px;
-    margin-top: 80px;
+    grid-column-gap: 37px;
+    grid-row-gap: 31px;
+    /* height: 930px; */
+    /* margin-top: 59px; */
 }
 
 .pets__button {
@@ -159,16 +178,25 @@ p {
     font-size: 17px;
     line-height: 130%;
     background: #FAFAFA;
-    padding: 15px 15px;
+    padding: 13px 15px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .pets__button:hover {
+    cursor: pointer;
     background: #FDDCC4;
 }
 
 .pets__name {
-    padding-top: 30px;
+    padding-top: 27px;
     padding-bottom: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
 }
 
 .Katrine,
@@ -181,8 +209,22 @@ p {
 .Sophia {
     border-radius: 9px;
     background: #FAFAFA;
+    /* border: 2px solid red; */
     text-align: center;
 }
+
+.Katrine:hover .pets__button,
+.Jennifer:hover .pets__button,
+.Woody:hover .pets__button,
+.Charly:hover .pets__button,
+.Timmy:hover .pets__button,
+.Scarlett:hover .pets__button,
+.Freddie:hover .pets__button,
+.Sophia:hover .pets__button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
 
 .Katrine:hover,
 .Jennifer:hover,
@@ -196,6 +238,46 @@ p {
     background-color: #FFFFFF
 }
 
+.pagination  {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 97px;
+}
+
+
+.arrows {
+border-radius: 100px;
+padding: 13px 20px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+margin-right: 20px;
+}
+
+.arrows:last-child {
+    margin-right: 0px;
+}
+
+.arrow-left,
+.double-left {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+
+}
+
+.double-right,
+.arrow-right {
+    border: 2px solid #F1CDB3;
+    color: #292929;
+}
+
+.number {
+    background: #F1CDB3;
+}
 
 /* footer */
 
