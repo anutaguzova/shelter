@@ -141,13 +141,10 @@ p {
 
 /* pets */
 .pets {
-    
+    padding-left: 4px;
     background: #F6F6F6;
 }
 
-.pets__wrapper {
-    margin: 0;
-}
 
 
 .pets__title{
