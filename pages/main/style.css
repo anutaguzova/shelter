@@ -153,6 +153,7 @@ p {
 
 .hero {
     display: flex;
+}
 
 
 .hero-content {
@@ -160,7 +161,7 @@ p {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-
+}
 
 .hero-title {
     max-width: 310px;
