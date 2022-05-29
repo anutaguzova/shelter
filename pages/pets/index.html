@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Shelter</title>
 </head>
+
 <body>
 
     <!-- header -->
@@ -15,26 +17,38 @@
         <div class="wrapper header_wrapper">
             <div class="logo">
                 <h1>Shelter</h1>
-                <a href="../main/index.html" >
-                <h2 class="logo__title">Cozy House</h2>
-                <div class="logo__subtitle">Shelter for pets in Boston</div>
+                <a href="../main/index.html">
+                    <h2 class="logo__title">Cozy House</h2>
+                    <div class="logo__subtitle">Shelter for pets in Boston</div>
                 </a>
             </div>
-        <div>
-            <nav class="menu">
-                <ul class="list">
-                    <li class="list__item">
-                        <a class="list__link list__link_disabled" href="../main/index.html">About the shelter</a></li>
-                    <li class="list__item">
-                        <a class="list__link list__link_active">Our pets</a></li>
-                    <li class="list__item">
-                        <a class="list__link list__link_disabled" href="../main/index.html#help">Help the shelter</a></li>
-                    <li class="list__item">
-                        <a class="list__link list__link_disabled" href="#footer">Contacts</a></li>
-                </ul>
-            </nav>
+            <div>
+                <nav class="menu">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="list__link list__link_disabled" href="../main/index.html">About the shelter</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link list__link_active">Our pets</a></li>
+                        <li class="list__item">
+                            <a class="list__link list__link_disabled" href="../main/index.html#help">Help the
+                                shelter</a></li>
+                        <li class="list__item">
+                            <a class="list__link list__link_disabled" href="#footer">Contacts</a></li>
+                    </ul>
+                </nav>
+
+
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </div>
+
+
+
+            </div>
         </div>
-    </div>
     </header>
 
     <!--  pets-->
@@ -45,10 +59,10 @@
                     <h3>Our friends who </h3>
                     <h3>are looking for a house</h3>
                 </div>
-                    
+
                 <div class="pets__cards">
                     <div class="Katrine">
-                        <img  class="pets__image" alt="Katrine" src="../../assets/images/pets-katrine.png">
+                        <img class="pets__image" alt="Katrine" src="../../assets/images/pets-katrine.png">
                         <p class="pets__name">Katrine</p>
                         <button type="button" class="pets__button">Learn more</button>
                     </div>
@@ -106,42 +120,51 @@
     <footer class="footer" id="footer">
         <div class="wrapper">
             <div class="footer-wrapper">
-            <div class="footer__contacts">
-                <h3>For questions and suggestions</h3>
-                <h4 class="mail">
-                    <a href="mailto:email@shelter.com"><img class="footer__svg" src="../../assets/icons/icon-email.svg" alt="email"></a>
-                    <a href="mailto:email@shelter.com" class="mail__title">email@shelter.com</a>
-                </h4>
-                <h4 class="phone">
-                    <a href="callto:+136745677554"><img class="footer__svg" src="../../assets/icons/phone.svg" alt="phone number"></a>
-                    <a href="callto:+136745677554" class="phone__title">+13 674 567 75 54</a>
-                </h4>
-            </div>
-            <div class="footer__location">
-                <h3>We are waiting for your visit</h3>
-                <h4 class="footer__location-USA">
-                    <a href="https://www.google.ru/maps/place/Los+Angeles,+CA,+USA/@38.3278805,-110.1363483,3z/data=!4m13!1m7!3m6!1s0x54eab584e432360b:0x1c3bb99243deb742!2sUnited+States!3b1!8m2!3d37.09024!4d-95.712891!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0526594!4d-118.2348633" target="_blank">
-                        <img class="footer__svg" src="../../assets/icons/pin.svg" alt="USA">
-                    </a>
-                    <a class="usa__title" href="https://www.google.ru/maps/place/Los+Angeles,+CA,+USA/@38.3278805,-110.1363483,3z/data=!4m13!1m7!3m6!1s0x54eab584e432360b:0x1c3bb99243deb742!2sUnited+States!3b1!8m2!3d37.09024!4d-95.712891!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0526594!4d-118.2348633" target="_blank">
-                                1 Central Street, Boston (entrance from the store)
-                    </a>
+                <div class="footer__contacts">
+                    <h3>For questions and suggestions</h3>
+                    <h4 class="mail">
+                        <a href="mailto:email@shelter.com"><img class="footer__svg"
+                                src="../../assets/icons/icon-email.svg" alt="email"></a>
+                        <a href="mailto:email@shelter.com" class="mail__title">email@shelter.com</a>
                     </h4>
-                <h4 class="footer__location-UK">
-                    <a href="https://www.google.ru/maps/place/London+Bridge/@51.5079145,-0.0899163,17z/data=!4m5!3m4!1s0x4876035159bb13c5:0xa61e28267c3563ac!8m2!3d51.507879!4d-0.0877324" target="_blank">
-                        <img class="footer__svg" src="../../assets/icons/pin.svg" alt="UK"> 
-                    </a>
-                    <a class="uk__title" href="https://www.google.ru/maps/place/London+Bridge/@51.5079145,-0.0899163,17z/data=!4m5!3m4!1s0x4876035159bb13c5:0xa61e28267c3563ac!8m2!3d51.507879!4d-0.0877324" target="_blank">
-                        18 South Park, London 
-                    </a>
-                </h4>
+                    <h4 class="phone">
+                        <a href="callto:+136745677554"><img class="footer__svg" src="../../assets/icons/phone.svg"
+                                alt="phone number"></a>
+                        <a href="callto:+136745677554" class="phone__title">+13 674 567 75 54</a>
+                    </h4>
+                </div>
+                <div class="footer__location">
+                    <h3>We are waiting for your visit</h3>
+                    <h4 class="footer__location-USA">
+                        <a href="https://www.google.ru/maps/place/Los+Angeles,+CA,+USA/@38.3278805,-110.1363483,3z/data=!4m13!1m7!3m6!1s0x54eab584e432360b:0x1c3bb99243deb742!2sUnited+States!3b1!8m2!3d37.09024!4d-95.712891!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0526594!4d-118.2348633"
+                            target="_blank">
+                            <img class="footer__svg" src="../../assets/icons/pin.svg" alt="USA">
+                        </a>
+                        <a class="usa__title"
+                            href="https://www.google.ru/maps/place/Los+Angeles,+CA,+USA/@38.3278805,-110.1363483,3z/data=!4m13!1m7!3m6!1s0x54eab584e432360b:0x1c3bb99243deb742!2sUnited+States!3b1!8m2!3d37.09024!4d-95.712891!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0526594!4d-118.2348633"
+                            target="_blank">
+                            1 Central Street, Boston (entrance from the store)
+                        </a>
+                    </h4>
+                    <h4 class="footer__location-UK">
+                        <a href="https://www.google.ru/maps/place/London+Bridge/@51.5079145,-0.0899163,17z/data=!4m5!3m4!1s0x4876035159bb13c5:0xa61e28267c3563ac!8m2!3d51.507879!4d-0.0877324"
+                            target="_blank">
+                            <img class="footer__svg" src="../../assets/icons/pin.svg" alt="UK">
+                        </a>
+                        <a class="uk__title"
+                            href="https://www.google.ru/maps/place/London+Bridge/@51.5079145,-0.0899163,17z/data=!4m5!3m4!1s0x4876035159bb13c5:0xa61e28267c3563ac!8m2!3d51.507879!4d-0.0877324"
+                            target="_blank">
+                            18 South Park, London
+                        </a>
+                    </h4>
+                </div>
+                <div class="footer__image-wrapper">
+                    <img class="footer__image" src="../../assets/images/footer-puppy.png" alt="puppy">
+                </div>
             </div>
-            <div class="footer__image-wrapper">
-            <img class="footer__image" src="../../assets/images/footer-puppy.png" alt="puppy">
-           </div>
         </div>
-    </div>
     </footer>
 
 </body>
+
 </html>
