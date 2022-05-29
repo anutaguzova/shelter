@@ -412,20 +412,20 @@ a:hover {
 /* burger menu */
 .header__burger {
     display: none;
-    width: 40px;
-    height: 21px;
+    width: 30px;
+    height: 20px;
     position: relative;
-    margin-top: 15px;
-    margin-bottom: 35px;
+    margin-right: 43px;
 }
 
 .burger__line {
     display: block;
     width: 100%;
-    height: 3px;
+    /* height: 3px; */
     background-color: #333333;
     position: absolute;
-    right: 0;
+
+    border: 1px solid #000000;
 }
 
 .burger__line_first {
@@ -459,7 +459,7 @@ a:hover {
     }
 
     .pets__title {
-        margin: 80px auto 30px;
+        margin: 80px auto 29px;
     }
 
     .pets__cards {
@@ -467,45 +467,54 @@ a:hover {
         margin: 0 auto;
     }
 
-
     .Scarlett,
     .Freddie {
         display: none;
     }
 
     .pagination {
-        margin-top: 40px;
-        margin-bottom: 76px;
+        margin-top: 38px;
+        margin-bottom: 75px;
     }
 
     .footer-wrapper {
-        max-width: 640px;
         flex-wrap: wrap;
-        margin-top: 30px;
+        margin: 30px 34px 0px;
     }
 
 
     .footer__contacts {
         margin-top: 2px;
         margin-bottom: 10px;
-        margin-left: 35px;
     }
 
     .footer__location {
-        margin-top: 0px;
-        margin-left: 15px;
-        margin-right: 0px;
-        max-width: 280px;
+        margin: 0px 0px 60px 0px;
+        /* max-width: 280px; */
     }
 
     .footer__location h3 {
-        max-width: 270px;
+        max-width: 280px;
+    }
+
+    .uk__title,
+    .usa__title {
+        max-width: 260px;
+        padding-bottom: 0px;
+    }
+
+    .usa__title {
+        padding-top: 13px;
+        padding-bottom: 14px;
     }
 
 
     .footer__location-USA {
+        margin: 20px auto 0px 0px;
+    }
 
-        margin: 20px auto 30px 0px;
+    .footer__location-UK {
+        margin: 17px auto 0px 0px;
     }
 
 
@@ -523,8 +532,9 @@ a:hover {
         margin: 0 auto;
     }
 
+
     .pets__title {
-        margin: 42px auto;
+        margin: 42px auto 40px;
         max-width: 300px;
     }
 
@@ -547,7 +557,7 @@ a:hover {
 
     .pagination {
         margin-top: 42px;
-        margin-bottom: 42px;
+        margin-bottom: 40px;
     }
 
     .arrows {
@@ -556,24 +566,63 @@ a:hover {
 
     .footer-wrapper {
         flex-wrap: wrap;
+        margin: 0 auto;
     }
+
 
     h3 {
         font-size: 25px;
     }
 
-    .footer__location {
+    .footer__contacts {
+        text-align: center;
+        margin-top: 30px;
+    }
 
-        margin-top: 40px;
-        margin-bottom: 45px;
-        margin-left: 3px;
+    .mail {
+        padding-left: 24px;
+    }
+
+    .mail,
+    .phone {
+        justify-content: center;
+    }
+
+    .footer__location {
+        max-width: 300px;
+        margin-top: 24px;
+        margin-bottom: 0px;
+        margin-left: 0px;
         margin-right: 0px;
 
     }
 
+    .footer__location h3 {
+        text-align: center;
+        max-width: 270px;
+        padding-left: 30px;
+    }
+
+
+
+    .footer__location-USA {
+        text-align: left;
+        margin: 40px auto 0px 0px;
+    }
+
+    .footer__location-UK {
+        margin: 37px auto 38px 0px;
+    }
+
 
     .footer__image-wrapper {
+        margin: 0 20px;
+
+    }
+
+    .footer__image {
         max-width: 260px;
+        max-height: 269px;
     }
 
     /* burger menu */
