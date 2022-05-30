@@ -180,6 +180,7 @@ p {
     background: #FAFAFA;
     padding: 13px 15px;
     margin-bottom: 30px;
+    margin-right: 2px;
     text-align: center;
 }
 
@@ -242,7 +243,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    margin-bottom: 97px;
+    margin-bottom: 98px;
 }
 
 
@@ -268,17 +269,25 @@ p {
     color: #CDCDCD;
 }
 
-.arrow-left,
-.arrow-right,
+.arrow-left {
+    padding: 12px 19px 13px 17px;
+}
+
+.arrow-right {
+    padding: 12px 18px 13px 17px;
+}
+
 .number {
-    padding: 13px 20px;
+    padding: 13px 20px 12px 21px;
 }
 
-.double-left,
+.double-left {
+    padding: 12px 9px 13px 10px;
+}
+
 .double-right {
-    padding: 13px 15px;
+    padding: 12px 9px 13px 10px;
 }
-
 
 
 .double-right,
@@ -382,7 +391,7 @@ p {
 .footer__location-USA {
     display: flex;
     align-items: center;
-    margin: 31px auto 31px -3px;
+    margin: 30px auto 31px 0px;
 
 }
 
@@ -474,7 +483,7 @@ a:hover {
 
     .pagination {
         margin-top: 38px;
-        margin-bottom: 75px;
+        margin-bottom: 77px;
     }
 
     .footer-wrapper {
@@ -561,7 +570,7 @@ a:hover {
     }
 
     .arrows {
-        margin-right: 9px;
+        margin-right: 10px;
     }
 
     .footer-wrapper {
