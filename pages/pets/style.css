@@ -242,13 +242,17 @@ p {
 .pagination {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 98px;
+    /* margin-top: 60px;
+    margin-bottom: 98px; */
+    width:340px;
+    margin: 60px auto 98px;
 }
 
 
 .arrows {
     border-radius: 100px;
+    width: 52px;
+    height: 52px;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -270,11 +274,11 @@ p {
 }
 
 .arrow-left {
-    padding: 12px 19px 13px 17px;
+    padding: 11px 18px 13px 16px;
 }
 
 .arrow-right {
-    padding: 12px 18px 13px 17px;
+    padding: 10px 19px 13px 17px;
 }
 
 .number {
@@ -282,11 +286,11 @@ p {
 }
 
 .double-left {
-    padding: 12px 9px 13px 10px;
+    padding: 10px 8px 13px 9px;
 }
 
 .double-right {
-    padding: 12px 9px 13px 10px;
+    padding: 10px 10px 13px 9px;
 }
 
 
@@ -565,9 +569,10 @@ a:hover {
     }
 
     .pagination {
-        margin-top: 42px;
-        margin-bottom: 40px;
+        width:300px;
+        margin: 42px auto 40px;
     }
+
 
     .arrows {
         margin-right: 10px;
