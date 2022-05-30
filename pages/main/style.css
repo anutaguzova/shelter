@@ -740,8 +740,8 @@ a:hover {
 
     .hero__image {
         width: 100%;
-        max-width: 569px;
-        max-height: 593px;
+        width: 569px;
+        height: 593px;
         margin-left: 70px;
     }
 
@@ -971,7 +971,7 @@ a:hover {
 
     .pets__wrapper {
         margin-top: 21px;
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     .right {
@@ -981,14 +981,14 @@ a:hover {
     .left {
         margin-right: 40px;
         margin-left: 58px;
-    
+
     }
 
 
     .pets__cards {
         margin-left: 15px;
         grid-template-columns: repeat(1, 1fr);
-      margin-bottom: 20px;
+        margin-bottom: 20px;
         order: -1;
     }
 
@@ -1039,7 +1039,7 @@ a:hover {
 
     }
 
-    
+
     .help__icon img {
         padding-bottom: 19px;
         max-width: 50px;
@@ -1055,7 +1055,7 @@ a:hover {
     }
 
 
-  
+
 
 
 
@@ -1114,13 +1114,13 @@ a:hover {
         margin-top: 4px;
     }
 
-    .search__submit { 
+    .search__submit {
         margin-left: 2px;
     }
 
     .donation__description {
         text-align: justify;
-    
+
     }
 
 
