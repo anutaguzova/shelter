@@ -971,20 +971,22 @@ a:hover {
 
     .pets__wrapper {
         margin-top: 21px;
-        flex-direction: column;
+      flex-wrap: wrap;
     }
 
     .right {
-        margin-left: 0px;
+        margin-left: 40px;
     }
 
     .left {
-        margin-right: 0px;
-        display: none;
+        margin-right: 40px;
+        margin-left: 58px;
+    
     }
 
 
     .pets__cards {
+        margin-left: 15px;
         grid-template-columns: repeat(1, 1fr);
       margin-bottom: 20px;
         order: -1;
@@ -1000,6 +1002,11 @@ a:hover {
     .pet__button {
         margin-top: 39px;
         margin-bottom: 42px;
+    }
+
+    .pets__button {
+        padding: 15px 15px;
+
     }
 
     .help {
@@ -1077,6 +1084,7 @@ a:hover {
         letter-spacing: 0.07em;
         font-size: 13px;
         line-height: 160%;
+        margin-bottom: 6px;
     }
 
     .donation__image-wrapper {
