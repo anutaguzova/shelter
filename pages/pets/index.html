@@ -9,7 +9,7 @@
     <title>Shelter</title>
 </head>
 
-<body>
+<body class="body">
 
     <!-- header -->
 
@@ -23,28 +23,24 @@
                 </a>
             </div>
             <div>
-                <nav class="menu">
-                    <ul class="list">
-                        <li class="list__item">
-                            <a class="list__link list__link_disabled" href="../main/index.html">About the shelter</a>
-                        </li>
-                        <li class="list__item">
-                            <a class="list__link list__link_active">Our pets</a></li>
-                        <li class="list__item">
-                            <a class="list__link list__link_disabled" href="../main/index.html#help">Help the
-                                shelter</a></li>
-                        <li class="list__item">
-                            <a class="list__link list__link_disabled" href="#footer">Contacts</a></li>
-                    </ul>
+
+                <nav class="nav">
+                    <div class="shadow"></div>
+                    <a class="logo__container" href="../main/index.html">
+                        <h2 class="logo__title">Cozy House</h2>
+                        <div class="logo__subtitle">Shelter for pets in Boston</div>
+                    </a>
+                    <a class="list__link list__link_disabled" href="../main/index.html">About the shelter</a>
+                    <a class="list__link list__link_active">Our pets</a></li>
+                    <a class="list__link list__link_disabled" href="../main/index.html#help">Help the
+                        shelter</a>
+                    <a class="list__link list__link_disabled" href="#footer">Contacts</a>
                 </nav>
-
-
-                <div class="header__burger burger">
-                    <span class="burger__line burger__line_first"></span>
-                    <span class="burger__line burger__line_second"></span>
-                    <span class="burger__line burger__line_third"></span>
-                </div>
-
+                <button class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
 
 
             </div>
@@ -103,15 +99,15 @@
                     </div>
                 </div>
                 <div class="pagination">
-                    <button class="arrows double-left" disabled><<</button>
-                    <button class="arrows arrow-left" disabled><</button>
-                    <div class="arrows number">1</div>
-                    <button class="arrows arrow-right">></button>
-                    <button class="arrows double-right">>></button>
+                    <button class="arrows double-left" disabled>
+                        <<</button> <button class="arrows arrow-left" disabled>
+                            <</button> <div class="arrows number">1</div>
+                <button class="arrows arrow-right">></button>
+                <button class="arrows double-right">>></button>
 
-                </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div id="popup_more">
@@ -176,6 +172,7 @@
     </footer>
 
 </body>
+<script type="module" src="../main/burger.js"></script>
 <script type="module" src="script.js"></script>
 
 </html>
