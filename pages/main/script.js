@@ -83,7 +83,6 @@ function checkMediaQuery() {
                             </div>
                            
                         </div>
-
                         <div class=" pets__cards slide">
                             <div class="pets__card ${randomPet[4].name}" id="4">
                                 <img class="pets__image" alt="${randomPet[4].name}" src="${randomPet[4].img}">
@@ -144,7 +143,6 @@ document.querySelector(".pets__cards_common").innerHTML = `
                             <button type="button" class="pets__button">Learn more</button>
                         </div>
                     </div>
-
                     <div class=" pets__cards slide">
                         <div class="pets__card ${randomPet[3].name}" id="3">
                             <img class="pets__image" alt="${randomPet[3].name}" src="${randomPet[3].img}">
@@ -162,7 +160,6 @@ document.querySelector(".pets__cards_common").innerHTML = `
                             <button type="button" class="pets__button">Learn more</button>
                         </div>
                     </div>
-
                     <div class=" pets__cards slide">
                         <div class="pets__card ${randomPet[6].name}" id="6">
                             <img class="pets__image" alt="Freddie" src="${randomPet[6].img}">
@@ -291,4 +288,3 @@ document.getElementById("popup_more").addEventListener("mouseover", function (e)
     }
 
 });
-

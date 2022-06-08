@@ -9,9 +9,7 @@
     <title>Shelter</title>
 </head>
 
-<body>
-
-
+<body class="body">
     <!-- start screen -->
     <div class="background">
         <header class="header">
@@ -26,26 +24,24 @@
                 <div>
 
 
-                    <nav class="menu">
-                        <ul class="list">
-                            <li class="list__item">
-                                <a class="list__link list__link_active">About the shelter</a></li>
-                            <li class="list__item">
-                                <a class="list__link list__link_disabled" href="../pets/index.html">Our pets</a></li>
-                            <li class="list__item">
-                                <a class="list__link list__link_disabled" href="#help">Help the shelter</a></li>
-                            <li class="list__item">
-                                <a class="list__link list__link_disabled" href="#footer">Contacts</a></li>
-                        </ul>
+                    <nav class="nav">
+                        <div class="shadow"></div>
+                        <a class="logo__container" href="../main/index.html">
+                            <h2 class="logo__title">Cozy House</h2>
+                            <div class="logo__subtitle">Shelter for pets in Boston</div>
+                        </a>
+                        <a href="#" class="list__link list__link_active burger_link"> About the shelter </a>
+                        <a href="../pets/index.html" class="list__link"> Our pets </a>
+                        <a href="#help" class="list__link burger_link"> Help the shelter </a>
+                        <a href="#footer" class="list__link"> Contacts </a>
                     </nav>
+                    <button class="burger">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </button>
 
-                    <div class="header__burger burger" id="burger">
-                        <span class="burger__line burger__line_first"></span>
-                        <span class="burger__line burger__line_second"></span>
-                        <span class="burger__line burger__line_third"></span>
-                    </div>
 
-                    <div class="hidden-overley"></div>
                 </div>
 
 
@@ -261,7 +257,9 @@
 
 
 </body>
-
+<script type="module" src="burger.js"></script>
 <script type="module" src="script.js"></script>
+
+
 
 </html>
